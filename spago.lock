@@ -5,9 +5,15 @@
         "path": "./",
         "core": {
           "dependencies": [
-            "aff",
-            "prelude",
-            "transformers"
+            {
+              "aff": ">=8.0.0 <9.0.0"
+            },
+            {
+              "prelude": ">=6.0.1 <7.0.0"
+            },
+            {
+              "transformers": ">=6.1.0 <7.0.0"
+            }
           ],
           "build_plan": [
             "aff",
